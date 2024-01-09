@@ -1,7 +1,7 @@
 build/
 .cache/
 compile_commands.json
-src/*.out
+src/*.cpp
 src/*.out
 src/main.cpp
 .vscode/
