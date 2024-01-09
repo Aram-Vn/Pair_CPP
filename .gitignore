@@ -1,0 +1,7 @@
+build/
+.cache/
+compile_commands.json
+src/*.out
+src/*.out
+src/main.cpp
+.vscode/
