@@ -16,8 +16,14 @@ namespace my {
     public:
         T first;
         U second;
-    };    
+    };
+
+    template <typename T, typename U>
+    my::Pair<T, U> make_pair(const T& firs_val, const U& second_val);
+
 } // namespace my
+
+
 
 #include "my_pair_impl.hpp"
 
